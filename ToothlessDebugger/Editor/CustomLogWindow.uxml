@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/ToothlessDebugger/Editor/CustomDebugWindow.uss?fileID=7433441132597879392&amp;guid=586269cd61ba48e44b348df6e4fd228b&amp;type=3#CustomDebugWindow" />
+    <ui:VisualElement name="Container" class="log">
+        <ui:VisualElement name="Icon" style="flex-grow: 0; background-image: url(&quot;project://database/Packages/com.unity.collab-proxy/Editor/Assets/Images/d_iconconflicted@2x.png?fileID=2800000&amp;guid=65f0e363b74cf5845ab8c3fbc14f39ac&amp;type=3#d_iconconflicted@2x&quot;); min-width: 40px; border-right-width: 1px; border-left-color: rgb(79, 79, 79); border-right-color: rgb(79, 79, 79); border-top-color: rgb(79, 79, 79); border-bottom-color: rgb(79, 79, 79);" />
+        <ui:Label text="Test" name="Text" style="flex-grow: 1; -unity-text-align: middle-left;" />
+        <ui:Label text="0" name="Count" style="-unity-text-align: middle-center; border-left-width: 1px; border-left-color: rgb(79, 79, 79); border-right-color: rgb(79, 79, 79); border-top-color: rgb(79, 79, 79); border-bottom-color: rgb(79, 79, 79); display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

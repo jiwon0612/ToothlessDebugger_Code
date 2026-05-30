@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/ToothlessDebugger/Editor/CustomDebugWindow.uss?fileID=7433441132597879392&amp;guid=586269cd61ba48e44b348df6e4fd228b&amp;type=3#CustomDebugWindow" />
+    <ui:VisualElement name="EnumContainer" style="flex-grow: 0;">
+        <ui:Label text="DebugType" name="EnumName" style="-unity-text-align: upper-center; font-size: 15px; -unity-font-style: bold;" />
+        <ui:ScrollView name="EnumsScrollView" style="flex-shrink: 0; overflow: hidden; max-height: 500px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="GenerateContainer" style="flex-grow: 1;">
+        <ui:TextField placeholder-text="filler text" name="GenerateEnumText" />
+        <ui:Button text="Generate" name="GenerateBtn" />
+    </ui:VisualElement>
+</ui:UXML>

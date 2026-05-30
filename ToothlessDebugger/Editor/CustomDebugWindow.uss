@@ -1,0 +1,84 @@
+.custom-label {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(68, 138, 255);
+}
+
+.btn_label {
+    width: auto;
+    height: 100%;
+    -unity-text-align: middle-left;
+    border-top-width: 0;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+    border-left-color: rgb(82, 82, 82);
+    border-right-color: rgb(82, 82, 82);
+    border-top-color: rgb(82, 82, 82);
+    border-bottom-color: rgb(82, 82, 82);
+}
+
+.btn_label:hover {
+    width: auto;
+    height: 100%;
+    -unity-text-align: middle-left;
+    border-top-width: 0;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+    border-left-color: rgb(82, 82, 82);
+    border-right-color: rgb(82, 82, 82);
+    border-top-color: rgb(82, 82, 82);
+    border-bottom-color: rgb(82, 82, 82);
+    background-color: rgb(108, 108, 108);
+}
+
+.log {
+    flex-grow: 0;
+    flex-direction: row;
+    height: 40px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(79, 79, 79);
+    border-right-color: rgb(79, 79, 79);
+    border-top-color: rgb(79, 79, 79);
+    border-bottom-color: rgb(79, 79, 79);
+}
+
+.log:hover {
+    flex-grow: 0;
+    flex-direction: row;
+    height: 40px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(79, 79, 79);
+    border-right-color: rgb(79, 79, 79);
+    border-top-color: rgb(79, 79, 79);
+    border-bottom-color: rgb(79, 79, 79);
+    background-color: rgb(63, 63, 63);
+}
+
+.log.log_selected {
+    flex-grow: 0;
+    flex-direction: row;
+    height: 40px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(79, 79, 79);
+    border-right-color: rgb(79, 79, 79);
+    border-top-color: rgb(79, 79, 79);
+    border-bottom-color: rgb(79, 79, 79);
+    background-color: rgb(89, 128, 152);
+}
+
+.btn_label.btn_label_selected {
+    width: auto;
+    height: 100%;
+    -unity-text-align: middle-left;
+    border-top-width: 0;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+    border-left-color: rgb(82, 82, 82);
+    border-right-color: rgb(82, 82, 82);
+    border-top-color: rgb(82, 82, 82);
+    border-bottom-color: rgb(82, 82, 82);
+    background-color: rgb(132, 132, 132);
+}

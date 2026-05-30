@@ -1,0 +1,22 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/ToothlessDebugger/Editor/CustomDebugWindow.uss?fileID=7433441132597879392&amp;guid=586269cd61ba48e44b348df6e4fd228b&amp;type=3#CustomDebugWindow" />
+    <ui:VisualElement name="BtnContainer" style="flex-grow: 0; flex-basis: 20px; align-items: flex-start; flex-direction: row; border-bottom-width: 1px; border-left-color: rgb(43, 43, 43); border-right-color: rgb(43, 43, 43); border-top-color: rgb(43, 43, 43); border-bottom-color: rgb(43, 43, 43);">
+        <ui:Label name="ClearBtn" text="Clear" class="btn_label" />
+        <ui:Label name="CollapseBtn" text="Collapse" class="btn_label" style="visibility: hidden; display: none;" />
+        <ui:VisualElement name="DebugCounter" class="btn_label" style="flex-grow: 0; flex-direction: row;">
+            <ui:VisualElement name="Icon" style="flex-grow: 1; background-image: url(&quot;project://database/Packages/com.unity.collab-proxy/Editor/Assets/Images/d_iconconflictedoverlay@2x.png?fileID=2800000&amp;guid=a3ced8f7044b9de4787602a9e9b20ea7&amp;type=3#d_iconconflictedoverlay@2x&quot;); width: 20px;" />
+            <ui:Label text="0&#10;" name="DebugCounterText" />
+        </ui:VisualElement>
+        <ui:Label name="TestBtn" text="Test" class="btn_label" style="display: none; visibility: hidden;" />
+        <ui:Label name="TestBtn2" text="Test2" class="btn_label" style="display: none; visibility: hidden;" />
+        <uie:EnumFlagsField label="ShowDebug" value="Default" type="ToothlessDebugger.RunTime.DebugType, ToothlessDebugger.RunTimeAssembly" name="ShowDebugType" style="flex-shrink: 1;" />
+    </ui:VisualElement>
+    <ToothlessDebugger.Editor.GGMSplitView orientation="Vertical" name="SplitView" fixed-pane-initial-dimension="350">
+        <ui:VisualElement name="LogContainer" style="flex-grow: 1;">
+            <ui:ScrollView name="ScrollLogContainer" />
+        </ui:VisualElement>
+        <ui:VisualElement name="LogMessage" style="flex-grow: 1; flex-basis: 50px; flex-shrink: 0;">
+            <ui:Label name="LogText" style="white-space: normal;" />
+        </ui:VisualElement>
+    </ToothlessDebugger.Editor.GGMSplitView>
+</ui:UXML>
