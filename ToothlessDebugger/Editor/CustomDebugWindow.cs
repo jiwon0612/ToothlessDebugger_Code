@@ -77,7 +77,6 @@ public class CustomDebugWindow : EditorWindow
 
         CustomDebug.OnAddDebug += HandleDebugLog;
         
-        //CustomDebug.Log("박시우 바보");
         //CustomDebugEnumGenerator d =  new CustomDebugEnumGenerator();
     }
 
